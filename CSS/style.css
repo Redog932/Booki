@@ -151,3 +151,77 @@ main  div div form button {
 .fa-magnifying-glass {
   visibility: hidden;
 }
+/*--------------SEARCH FILTER--------------*/
+.filter-h2 {
+  margin: 0 0 -40px 16px;
+}
+main>section>div>div>div>i {
+ border-radius: 16px 16px 16px 16px;
+ color: #0065fc;
+}
+
+main>section>div.filtre-flex>h2{
+  margin-right: -33px;
+  font-size: large;
+}
+
+i.fa-solid.fa-info.i {
+  margin-right: 15px;
+}
+
+.filtre-flex{
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filters{
+  display: flex;
+  border: 2px solid #d9d9d9;
+  align-items: center;
+  border-radius: 32px;
+  padding-right: 32px;
+  margin-left: 48px;
+}
+.icon-style{
+  background-color: #DEEBFF;
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+  min-height: 56px;
+  min-width: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -2px;
+}
+
+.info-flex{
+  display: flex;
+  align-items: baseline;
+  width: 38%;
+  margin: 16px 10px;}
+
+.i {
+  border: 1px solid gray;
+  border-radius: 50%;
+  display: flex;
+  color:  rgb(10, 90, 240) ;
+  justify-content: center;
+  width: 21.8px;
+  height: 21.8px;
+  padding-top: 1.5px;
+}
+
+.fa-solid.fa-info{
+display: flex;}
+
+span{
+  width: max-content;
+  font-size: large;
+  cursor: pointer;
+  padding-left: 16px;
+}
+/*--------------SEARCH FILTER--------------*/
