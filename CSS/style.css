@@ -1,0 +1,63 @@
+/*****FONTS*****/
+* {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+/*****FONTS*****/
+/*****HEADER*****/
+
+header>nav>div>ul {
+    list-style-type: none;
+  }
+  
+header {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+  }
+  
+ #logo {
+    block-size: 48px;
+    margin-right: 924px;
+  }
+  /*****HEADER*****/
+  /*****NAV*****/
+header>nav>ul>li>a {
+    /* border: 1.5px solid blue; */
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  header nav {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-top: 32px;
+  }
+  
+  header nav a {
+    padding: 24px;
+    border: 3px solid transparent;
+  }
+  header nav a:hover {
+    border-top-color: #0065fc;
+    color: #0065fc;
+  }
+  header nav ul {
+    /* border: 1px solid purple; */
+    display: flex;
+    list-style-type: none;
+  }
+  header > nav ul li a {
+    /* border: 1px solid black; */
+    flex-basis: 50%;
+    text-align: center;
+  }
+  .host {
+    border-top: 3px solid #0065fc;
+      color: #0065fc;
+  }
+  /*****NAV*****/
