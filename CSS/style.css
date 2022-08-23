@@ -15,11 +15,11 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
   }
   
  #logo {
     block-size: 48px;
-    margin-right: 924px;
   }
   /*****HEADER*****/
   /*****NAV*****/
