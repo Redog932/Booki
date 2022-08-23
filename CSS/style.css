@@ -61,3 +61,93 @@ header>nav>ul>li>a {
       color: #0065fc;
   }
   /*****NAV*****/
+  /********titre*********/
+main {
+  /* border: 1px solid purple; */
+  width: 1180px;
+  margin: 0 auto;
+}
+/********titre*********/
+h1 {
+  /* border: 1px solid red; */
+  margin-top: 40px;
+  width: 500px;
+  font-size:larger;
+}
+main > div > div > p {
+  /* border: 1px solid red; */
+  position: absolute;
+  bottom: 550px;
+}
+
+/*****SEARCHSTYLE*****/
+
+main > div > div > form > input {
+  /* border: 1px solid blue; */
+  display: flex;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 45px;
+}
+
+main div div form input::placeholder {
+  /* border: 1px solid red; */
+  color: black;
+  font-weight: bold;
+  font-size: 17px;
+  padding: 19.2px;
+  text-align: left;
+}
+
+main  div div form button {
+  border-radius: 0 16px 16px 0;
+  background-color: rgb(10, 90, 240);
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding: 8.5px;
+  border-color: transparent;
+  position: absolute;
+  right: 800px;
+}
+
+
+.search-Style {
+  /* border: 1px solid purple; */
+  align-content: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: -20px;
+}
+
+.i-locat {
+  /* border: 1px solid red; */
+  padding: 12px 15px;
+  margin-top: 15px;
+  background-color: rgb(235, 229, 229);
+  border-radius: 16px 0 0 16px;
+  position: absolute;
+}
+
+.styleInput {
+  position:relative ;
+  bottom: 35px;
+  right: 2.5px;
+  border: 1px solid #d9d9d9;
+
+}
+
+.styleButton {
+  /* border: 1px solid red; */
+  height: 40px;
+  position:relative ;
+  right: -241px;
+  top:-75px;
+  background-color: #0065fc;
+}
+.fa-magnifying-glass {
+  visibility: hidden;
+}
