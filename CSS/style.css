@@ -225,3 +225,178 @@ span{
   padding-left: 16px;
 }
 /*--------------SEARCH FILTER--------------*/
+/*--------------CARD--------------*/
+/*--------------HOST--------------*/
+.hebergement{
+  display: flex;
+  gap: 48px;
+}
+
+section.hebergement .Card-host>h3 {
+  padding: 0px 0 0 25px;
+  font-weight: bold;
+  font-size: larger;
+  margin: 29px 0px 25px 6px
+}
+
+.host-img{
+  width: 241px;
+  height: 119px;
+  border-radius: 15px 15px 0 0;
+  padding: 6px 0 0 6px;
+}
+
+.Card-host {
+  width: 880px;
+  padding-left: 10px;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+
+.Card-host-position {
+  width: 246px;
+  height: 199px;
+  margin: 0 30px 30px auto;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.host-star{
+  height: 43px;
+  display: flex;
+  padding: 0 0 8px 16px;
+  margin-top: -4px;
+}
+
+.Card-host-position:hover{
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.font-card {
+  font-style: normal;
+  font-size: smaller;
+  font-weight: bolder;
+  margin-top: -1px;
+  margin-left: 10px;
+}
+
+.font-card-2 {
+  font-size: smaller;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.Card-position {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+.Card-host-position h3{
+  margin: 1px 0 0 16px;
+  font-size: 17px;
+}
+
+.Card-host-position p{
+  margin: 6px 0 6px 16px;
+  font-size: 14px;
+}
+.card-more {
+  margin: 0 0 30px 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.card-more:hover {
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.rating-style{
+  color: #0065fc;
+  margin: 4px 0;
+}
+
+.rating-style-2{
+  color: #726e6e;
+  margin: 4px 0;
+}
+/*--------------POPULAR--------------*/
+.popular{
+  width: 32%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  align-items: baseline;
+  background-color: #f2f2f2;
+  border-radius: 16px;
+}
+
+.star-popular-position{
+  height: 64px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.star-popular-position-2{
+  height: 43px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.star-adjustement{
+margin-top: -20px;
+}
+
+.star-popular{
+  width: 10px;
+  display: flex;
+}
+
+.img-popular{
+  width: 132px;
+    height: 139px;
+    border-radius: 15px 0px 0px 15px;
+    padding: 5px;
+    float: left;
+    object-fit: cover;
+}
+
+div.card-popular:hover{
+  box-shadow: 0 0 16px #0000002e;
+}
+.card-popular{
+  /* border: 2px solid red; */
+  width: 350px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.card-popular h3{
+  margin: 15px 0 8px 0;
+  font-size: 17px;
+}
+
+.card-popular p{
+  margin: 4px 0 8px 0;
+}
+
+.card-popular i {
+  margin-top: 15px;
+}
+.popular-disposition{
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
+}
+
+section.hebergement>div.popular>h3 {
+  margin: 9px 135px 14px -10px
+}
+
+.card-popular .fa-star{
+  width: 12px;
+}
