@@ -1,0 +1,319 @@
+/*TABLETTE*/
+@media screen and (max-width: 992px){
+  html {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  
+  /*HEADER*/
+    header{
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #logo {
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 50%;
+      flex-wrap: wrap;
+    }
+    .sub-nav {
+      width: 100%;
+      justify-content: center;
+      margin: auto ;
+    }
+    a.host {
+      border-top-color: transparent;
+      border-bottom: 3px solid #0065fc;
+      color: #0065fc;
+    }
+    header nav a {
+      border-top: 3px solid white;
+    }
+
+    /*RECHERCHE*/
+    .search-Style span{
+      visibility: hidden;
+    }
+    main > section > div > form > input {
+      display: flex;
+      width: 400px;
+      height: 40px;
+      justify-content: center;
+      text-align: center;
+      margin-top: 50px;
+      margin-left: 45px;
+    }
+    .styleInput {
+      width: 400px;
+    }
+    .styleButton {
+      width: 45px;
+      position: relative;
+      right: -443px;
+      top: -75px;
+    }
+    .fa-magnifying-glass{
+      visibility: visible;
+      display: flex;
+      position: absolute;
+      bottom: 8px;
+      left: 11px;
+    }
+    form {
+      width: 100%;
+    }
+    /*FILTRES*/
+    .filtre-flex {
+      flex-wrap:wrap;
+      justify-content: flex-start;
+      width: 80%;
+      gap: 10px;
+    }
+    .info-flex {
+      flex-wrap: nowrap;
+      width: 90%;
+    }
+    /*HEBERGEMENTS*/
+    #Host {
+    flex-direction: column-reverse;
+    justify-content: center;    
+    }
+    section.hebergement .Card-host>h3 {
+     padding: 0px 0 32px 25px;
+    }
+    div.city-host {
+      /* flex-direction: column; */
+      justify-content: center;
+      flex-wrap: wrap;
+      width: 100%;
+      gap: 10%;
+    }
+    div.Card-host-position {
+      margin: 16px 30px 30px 0;
+    }
+    a.card-more {
+      justify-content: center;
+    }
+    /*ACTIVITES*/
+    .Activity-title {
+      display: flex;
+      justify-content: center;
+    }
+    .card-activity-placement div{
+      flex-wrap: nowrap;
+    }
+    .card-activity-placement{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-left: 126px;
+    }
+    /*POPULAR*/
+    .popular-disposition {
+      width: 80%;
+      justify-content: center;
+    }
+    .card-popular {
+      width: 80%;
+      margin-left: 70px;
+    }
+    .popular{ 
+      width: 100%;
+      justify-content: center
+    }
+    /*FOOTER*/
+    footer>section {
+      justify-content: space-evenly;
+      padding: 0;
+      width: 100%;
+    }
+  
+
+/*MOBILE*/
+@media screen and (max-width: 768px){
+    html {
+      width: 100%;
+    }
+    main {
+      width: 100%;
+    }
+    main>div>h1 {
+      width: 100%;
+    }
+
+    /*HEADER*/
+    header{
+      width: 100%;
+      flex-wrap: wrap;
+  
+    }
+    #logo {
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 15% 0 30%;
+      flex-wrap: wrap;
+    }
+    .sub-nav {
+      width: 100%;
+      justify-content: center;
+      margin: auto ;
+    }
+    li {
+      width: 100%;
+    }
+    a.host {
+      border-bottom: 3px solid #0065fc;
+      color: #0065fc;
+    }
+    header nav a {
+      border-top: 3px solid white;
+      width: 100%;
+      border-bottom: 3px solid #d9d9d9;
+    }
+
+    /*RECHERCHE*/
+    .search-Style span{
+      visibility: hidden;
+    }
+    .styleButton {
+      width: 45px;
+      position: relative;
+     top: -75px;
+     right: -240px;
+    }
+    .fa-magnifying-glass{
+      visibility: visible;
+      display: flex;
+      position: absolute;
+      bottom: 8px;
+      left: 11px;
+    }
+    .styleInput {
+        width: 55%;
+    }
+    /*FILTRES*/
+    .filters {
+      margin:0 10px 0 0;
+    }
+    .filtre-flex {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      margin-left: -5px;
+      width: 100%;
+      gap: 10px;
+    }
+    .filter-h2{
+      margin: 0 0 32px 16px
+    }
+    .info-flex {
+      flex-wrap: nowrap;
+      width: 90%;
+    }
+    i.fa-solid.fa-info.i {
+      width: 10%;
+  }
+
+    /*POPULAIRES*/
+    section.hebergement>div.popular>h3 {
+      margin: 9px 135px 10px -10px;
+    }
+    .card-popular {
+      width: 100%;
+      margin: 0;
+    }
+    .popular-disposition {
+      width: 100%;
+    }
+    .popular{ 
+      width: 100%;
+      justify-content: center
+    }
+  
+    /*HEBERGEMENTS*/
+    #Host {
+    flex-direction: column-reverse;
+    justify-content: center;  
+    width: 100%;  
+    }
+    section.hebergement .city-host>h3 {
+      padding: 0px 0 0 25px;
+      font-weight: bold;
+      font-size: larger;
+      margin: 29px 0px 0px 6px;
+    }
+    section.hebergement .Card-host>h3{
+      padding: 0 0 0 16px;
+      margin: 25px 0 0 20px;
+    }
+    div.city-host {
+      flex-direction: column;
+      align-content: flex-start;
+      width: 100%;
+      padding: 0;
+      background-color: inherit;
+    }
+    div.Card-host-position {
+      width: 100%;
+      height: 230px;
+      border-radius: 16px;
+      box-shadow: 0 0 16px #0000002e;
+      margin: 16px 0px 30px 0;
+    }
+    .host-img{ 
+      width: 100%;
+      object-fit: cover;
+      height: 148px;
+      padding: 7px;
+      border-radius: 16px 16px 0 0;
+    }
+    a.card-more {
+      justify-content: center;
+      margin-left: 11px;
+    }
+  
+     /*ACTIVITES*/
+     .Activity-title {
+      display: block;
+     }
+     .activity {
+       width: 100%;
+     }
+     .card-activity-placement div{
+      flex-wrap: nowrap;
+      margin-left: 0;
+      width: 100%;
+    }
+    .card-activity-placement{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 50px 0;
+    }
+    .big-card-activity {
+      Width:302px;
+      Height:236px;
+    }
+    .big-card-activity img {
+      Width: 100%;
+      Height: 181px;
+      border-radius: 16px 16px 0 0;
+      object-fit: cover;
+    }
+    .little-card-activity img {
+      width: 100%;
+    }
+   
+    /*FOOTER*/
+    footer>section {
+      flex-direction: column;
+    }
+    .footer-position {
+      justify-content: center;
+      flex-direction: column;
+      padding: 0;
+    }
+  }
+}
