@@ -151,6 +151,7 @@ main  div div form button {
 .fa-magnifying-glass {
   visibility: hidden;
 }
+
 /*--------------SEARCH FILTER--------------*/
 .filter-h2 {
   margin: 0 0 -40px 16px;
@@ -173,8 +174,7 @@ i.fa-solid.fa-info.i {
   display: flex;
   align-items: baseline;
   align-content: center;
-  justify-content: space-between;
-  width: 100%;
+  margin-left: 54px;
 }
 
 .filters{
@@ -225,14 +225,15 @@ span{
   padding-left: 16px;
 }
 /*--------------SEARCH FILTER--------------*/
+
 /*--------------CARD--------------*/
 /*--------------HOST--------------*/
 .hebergement{
   display: flex;
-  gap: 48px;
+  gap: 32px;
 }
 
-section.hebergement .Card-host>h3 {
+section.hebergement .city-host>h3 {
   padding: 0px 0 0 25px;
   font-weight: bold;
   font-size: larger;
@@ -240,26 +241,31 @@ section.hebergement .Card-host>h3 {
 }
 
 .host-img{
-  width: 241px;
+  width: 229px;
   height: 119px;
   border-radius: 15px 15px 0 0;
   padding: 6px 0 0 6px;
 }
 
-.Card-host {
-  width: 880px;
+.city-host {
+  flex-basis: 66%;
   padding-left: 10px;
   background-color: #f2f2f2;
   border-radius: 16px;
   display: flex;
   align-content: space-around;
   flex-wrap: wrap;
+  margin-right: 0px;
+}
+.Card-host {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .Card-host-position {
-  width: 246px;
+  width: 235px;
   height: 199px;
-  margin: 0 30px 30px auto;
+  margin: 16px 6px;
   background-color: white;
   border-radius: 15px;
 }
@@ -268,7 +274,7 @@ section.hebergement .Card-host>h3 {
   height: 43px;
   display: flex;
   padding: 0 0 8px 16px;
-  margin-top: -4px;
+  margin-top: 8px;
 }
 
 .Card-host-position:hover{
@@ -288,11 +294,7 @@ section.hebergement .Card-host>h3 {
   margin-top: -10px;
   margin-left: 10px;
 }
-.Card-position {
-  display: flex;
-  flex-flow: row wrap;
-  width: 100%;
-}
+
 .Card-host-position h3{
   margin: 1px 0 0 16px;
   font-size: 17px;
@@ -322,9 +324,10 @@ a.card-more:hover {
   color: #726e6e;
   margin: 4px 0;
 }
+
 /*--------------POPULAR--------------*/
 .popular{
-  width: 32%;
+  flex-basis: 33%;
   padding: 20px;
   display: flex;
   flex-direction: row;
@@ -390,13 +393,99 @@ div.card-popular:hover{
 .popular-disposition{
   display: flex;
   flex-direction: column;
-  gap: 106px;
+  gap: 32px;
 }
 
 section.hebergement>div.popular>h3 {
-  margin: 9px 135px 14px -10px
+  margin: 9px 135px 45px -10px;
 }
 
 .card-popular .fa-star{
   width: 12px;
+}
+
+/*ACTIVITY*/
+
+.Activity-title {
+  margin-top: 70px;
+  margin-bottom: -30px;
+  padding-left: 24px;
+}
+.activity-h3 {
+  padding-left: 16px;
+  font-size: 17px;
+}
+.card-activity-placement {
+  margin-top: 48px;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.big-card {
+  box-shadow: 0 0 16px #0000002e;
+  margin-bottom: 16px;
+  border-radius: 16px;
+}
+.big-card-activity {
+  width:302px;
+  height: 444px;
+  
+}
+.big-card-activity img{
+  Width:302px;
+  Height:421px;
+  border-radius: 16px 16px 0 0;
+  object-fit: cover;
+  box-shadow: 0 0 16px #0000002e;
+}
+
+.little-card-activity{
+  Width:302px;
+  Height:236px;
+  margin: 0px 36px;
+  box-shadow: 0 0 16px #0000002e;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.little-card-activity img{
+Width: 302px;
+Height: 181px;
+border-radius: 16px 16px 0 0;
+object-fit: cover;
+}
+/* div.little-card-activity:hover {
+  box-shadow: 0 0 16px #0000002e;
+  border-radius: 16px;
+  height: fit-content;
+}
+div.big-card-activity:hover {
+  box-shadow: 0 0 16px #0000002e;
+  border-radius: 16px;
+  height: fit-content;
+} */
+
+/*FOOTER*/
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+footer section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.footer-placement{
+  width: 30%;
+}
+
+footer h3 {
+  font-weight: bolder;
+}
+.footer-position {
+  width: 100%;
+  max-width: 1180px;
+  display: flex;
+  gap: 15%;
 }
