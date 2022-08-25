@@ -409,7 +409,6 @@ section.hebergement>div.popular>h3 {
 .Activity-title {
   margin-top: 70px;
   margin-bottom: -30px;
-  padding-left: 24px;
 }
 .activity-h3 {
   padding-left: 16px;
@@ -418,7 +417,7 @@ section.hebergement>div.popular>h3 {
 .card-activity-placement {
   margin-top: 48px;
   display: flex;
-  /* flex-wrap: wrap; */
+  gap: 5%;
 }
 .big-card {
   box-shadow: 0 0 16px #0000002e;
@@ -441,7 +440,6 @@ section.hebergement>div.popular>h3 {
 .little-card-activity{
   Width:302px;
   Height:236px;
-  margin: 0px 57px;
   box-shadow: 0 0 16px #0000002e;
   border-radius: 16px;
   margin-bottom: 16px;
