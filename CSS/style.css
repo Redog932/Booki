@@ -11,7 +11,7 @@ header>nav>div>ul {
   }
   
 header {
-    width: 1440px;
+    width: 1180px;
     margin: 0 auto;
     display: flex;
     align-items: baseline;
@@ -64,7 +64,7 @@ header>nav>ul>li>a {
   /********titre*********/
 main {
   /* border: 1px solid purple; */
-  width: 1440px;
+  width: 1180px;
   margin: 0 auto;
 }
 /********titre*********/
@@ -184,6 +184,7 @@ i.fa-solid.fa-info.i {
   border-radius: 32px;
   padding-right: 32px;
   margin-left: 48px;
+  margin-right: -24px;
 }
 .icon-style{
   background-color: #DEEBFF;
@@ -237,7 +238,7 @@ section.hebergement .city-host>h3 {
   padding: 0px 0 0 25px;
   font-weight: bold;
   font-size: larger;
-  margin: 37px 0px -17px 24px;
+  margin: 44px 0px -13px 6px;
 }
 
 .host-img{
@@ -265,9 +266,9 @@ section.hebergement .city-host>h3 {
 .Card-host-position {
   width: 235px;
   height: 199px;
-  margin: 16px 32px 8px 39px;
+  margin: 16px 6px;
   background-color: white;
-  border-radius: 16px;
+  border-radius: 15px;
 }
 
 .host-star{
@@ -397,7 +398,7 @@ div.card-popular:hover{
 }
 
 section.hebergement>div.popular>h3 {
-  margin: 27px 0px 12px -27px;
+  margin: 26px 135px 11px -10px;
 }
 
 .card-popular .fa-star{
@@ -409,6 +410,7 @@ section.hebergement>div.popular>h3 {
 .Activity-title {
   margin-top: 70px;
   margin-bottom: -30px;
+  padding-left: 24px;
 }
 .activity-h3 {
   padding-left: 16px;
@@ -417,7 +419,7 @@ section.hebergement>div.popular>h3 {
 .card-activity-placement {
   margin-top: 48px;
   display: flex;
-  gap: 5%;
+  gap: 0.8%;
 }
 .big-card {
   box-shadow: 0 0 16px #0000002e;
@@ -425,28 +427,29 @@ section.hebergement>div.popular>h3 {
   border-radius: 16px;
 }
 .big-card-activity {
-  width:302px;
-  height: 444px;
+  width: 260px;
+  height: 445px;
   
 }
 .big-card-activity img{
-  Width:302px;
-  Height:421px;
+  Width:260px;
+  Height:392px;
   border-radius: 16px 16px 0 0;
   object-fit: cover;
   box-shadow: 0 0 16px #0000002e;
 }
 
 .little-card-activity{
-  Width:302px;
-  Height:236px;
+  Width: 260px;
+  Height:216px;
+  margin: 0px 36px;
   box-shadow: 0 0 16px #0000002e;
   border-radius: 16px;
   margin-bottom: 16px;
 }
 .little-card-activity img{
-Width: 302px;
-Height: 181px;
+Width: 260px;
+Height: 160px;
 border-radius: 16px 16px 0 0;
 object-fit: cover;
 }
@@ -483,7 +486,7 @@ footer h3 {
 }
 .footer-position {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1180px;
   display: flex;
   gap: 15%;
 }
