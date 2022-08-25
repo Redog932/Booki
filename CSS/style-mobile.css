@@ -209,6 +209,10 @@
     /*FILTRES*/
     .filters {
       margin:0 10px 0 0;
+      padding-right: 4px;
+    }
+    .filters>span {
+      padding-left: 8px;
     }
     .filtre-flex {
       flex-wrap: wrap;
