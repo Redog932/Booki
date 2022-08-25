@@ -11,7 +11,7 @@ header>nav>div>ul {
   }
   
 header {
-    width: 1180px;
+    width: 1440px;
     margin: 0 auto;
     display: flex;
     align-items: baseline;
@@ -64,7 +64,7 @@ header>nav>ul>li>a {
   /********titre*********/
 main {
   /* border: 1px solid purple; */
-  width: 1180px;
+  width: 1440px;
   margin: 0 auto;
 }
 /********titre*********/
@@ -237,7 +237,7 @@ section.hebergement .city-host>h3 {
   padding: 0px 0 0 25px;
   font-weight: bold;
   font-size: larger;
-  margin: 29px 0px 25px 6px
+  margin: 37px 0px -17px 24px;
 }
 
 .host-img{
@@ -265,9 +265,9 @@ section.hebergement .city-host>h3 {
 .Card-host-position {
   width: 235px;
   height: 199px;
-  margin: 16px 6px;
+  margin: 16px 32px 8px 39px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 16px;
 }
 
 .host-star{
@@ -397,7 +397,7 @@ div.card-popular:hover{
 }
 
 section.hebergement>div.popular>h3 {
-  margin: 9px 135px 45px -10px;
+  margin: 27px 0px 12px -27px;
 }
 
 .card-popular .fa-star{
@@ -441,7 +441,7 @@ section.hebergement>div.popular>h3 {
 .little-card-activity{
   Width:302px;
   Height:236px;
-  margin: 0px 36px;
+  margin: 0px 57px;
   box-shadow: 0 0 16px #0000002e;
   border-radius: 16px;
   margin-bottom: 16px;
@@ -485,7 +485,7 @@ footer h3 {
 }
 .footer-position {
   width: 100%;
-  max-width: 1180px;
+  max-width: 1440px;
   display: flex;
   gap: 15%;
 }
