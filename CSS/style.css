@@ -191,8 +191,8 @@ i.fa-solid.fa-info.i {
   border-radius: 100%;
   height: 48px;
   width: 48px;
-  min-height: 56px;
-  min-width: 56px;
+  min-height: 40px;
+  min-width: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
