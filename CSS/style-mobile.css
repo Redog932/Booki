@@ -180,11 +180,11 @@
       color: #0065fc;
     }
     header nav a {
-      padding: 24px 53px;
+      padding: 24px 48px
       border-top: 3px solid white;
       width: 100%;
       border-bottom: 3px solid #d9d9d9;
-      margin: 0 -8px;
+      margin: 0 -8px 0 4px;
     }
 
     /*RECHERCHE*/
@@ -195,7 +195,8 @@
       width: 45px;
       position: relative;
       top: -75px;
-     right: -240px;
+     right: -320px;
+     overflow-y: hidden;
     }
     .fa-magnifying-glass{
       visibility: visible;
@@ -205,7 +206,7 @@
       left: 11px;
     }
     .styleInput {
-        width: 200px;
+        width: 277px;
     }
     /*FILTRES*/
     .filters {
@@ -230,7 +231,7 @@
       width: 90%;
     }
     i.fa-solid.fa-info.i {
-      width: 10%;
+      width: 24px;
       margin-right: 12px;
   }
 
