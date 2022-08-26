@@ -186,6 +186,10 @@ i.fa-solid.fa-info.i {
   margin-left: 48px;
   margin-right: -24px;
 }
+.filters > a {
+  text-decoration: none;
+  color: inherit;
+}
 .icon-style{
   background-color: #DEEBFF;
   border-radius: 100%;
@@ -258,9 +262,12 @@ section.hebergement .city-host>h3 {
   flex-wrap: wrap;
   margin-right: 0px;
 }
-.Card-host {
+.Card-host,
+.Card-host > a {
   display: flex;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: inherit;
 }
 
 .Card-host-position {
@@ -269,6 +276,7 @@ section.hebergement .city-host>h3 {
   margin: 16px 6px;
   background-color: white;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .host-star{
@@ -362,11 +370,11 @@ margin-top: -20px;
 
 .img-popular{
   width: 132px;
-    height: 139px;
-    border-radius: 15px 0px 0px 15px;
-    padding: 5px;
-    float: left;
-    object-fit: cover;
+  height: 139px;
+  border-radius: 15px 0px 0px 15px;
+  padding: 5px;
+  float: left;
+  object-fit: cover;
 }
 
 div.card-popular:hover{
@@ -377,6 +385,7 @@ div.card-popular:hover{
   width: 350px;
   background-color: white;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .card-popular h3{
@@ -391,10 +400,13 @@ div.card-popular:hover{
 .card-popular i {
   margin-top: 15px;
 }
-.popular-disposition{
+.popular-disposition,
+.popular-disposition > a{
   display: flex;
   flex-direction: column;
   gap: 32px;
+  text-decoration: none;
+  color: inherit;
 }
 
 section.hebergement>div.popular>h3 {
@@ -406,6 +418,11 @@ section.hebergement>div.popular>h3 {
 }
 
 /*ACTIVITY*/
+.card-activity-placement > a,
+.little-card > a {
+text-decoration: none;
+color: inherit;
+}
 
 .Activity-title {
   margin-top: 70px;
@@ -477,8 +494,11 @@ footer section {
   width: 100%;
 }
 
-.footer-placement{
+.footer-placement,
+.footer-placement > a{
   width: 30%;
+  text-decoration: none;
+  color: inherit;
 }
 
 footer h3 {
