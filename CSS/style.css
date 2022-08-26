@@ -186,6 +186,10 @@ i.fa-solid.fa-info.i {
   margin-left: 48px;
   margin-right: -24px;
 }
+.filters > a {
+  text-decoration: none;
+  color: inherit;
+}
 .icon-style{
   background-color: #DEEBFF;
   border-radius: 100%;
@@ -272,6 +276,7 @@ section.hebergement .city-host>h3 {
   margin: 16px 6px;
   background-color: white;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .host-star{
@@ -380,6 +385,7 @@ div.card-popular:hover{
   width: 350px;
   background-color: white;
   border-radius: 15px;
+  cursor: pointer;
 }
 
 .card-popular h3{
