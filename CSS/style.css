@@ -258,9 +258,12 @@ section.hebergement .city-host>h3 {
   flex-wrap: wrap;
   margin-right: 0px;
 }
-.Card-host {
+.Card-host,
+.Card-host > a {
   display: flex;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: inherit;
 }
 
 .Card-host-position {
@@ -362,11 +365,11 @@ margin-top: -20px;
 
 .img-popular{
   width: 132px;
-    height: 139px;
-    border-radius: 15px 0px 0px 15px;
-    padding: 5px;
-    float: left;
-    object-fit: cover;
+  height: 139px;
+  border-radius: 15px 0px 0px 15px;
+  padding: 5px;
+  float: left;
+  object-fit: cover;
 }
 
 div.card-popular:hover{
@@ -391,10 +394,13 @@ div.card-popular:hover{
 .card-popular i {
   margin-top: 15px;
 }
-.popular-disposition{
+.popular-disposition,
+.popular-disposition > a{
   display: flex;
   flex-direction: column;
   gap: 32px;
+  text-decoration: none;
+  color: inherit;
 }
 
 section.hebergement>div.popular>h3 {
@@ -406,6 +412,11 @@ section.hebergement>div.popular>h3 {
 }
 
 /*ACTIVITY*/
+.card-activity-placement > a,
+.little-card > a {
+text-decoration: none;
+color: inherit;
+}
 
 .Activity-title {
   margin-top: 70px;
@@ -477,8 +488,11 @@ footer section {
   width: 100%;
 }
 
-.footer-placement{
+.footer-placement,
+.footer-placement > a{
   width: 30%;
+  text-decoration: none;
+  color: inherit;
 }
 
 footer h3 {
