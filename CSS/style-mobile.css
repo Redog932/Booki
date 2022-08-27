@@ -222,6 +222,7 @@
       margin-left: -5px;
       width: 100%;
       gap: 10px;
+      margin: 0 auto;
     }
     .filter-h2{
       margin: 0 0 32px 16px
@@ -251,6 +252,13 @@
       justify-content: center
     }
   
+    .star-popular-position-m3 {
+      height: 64px;
+      display: flex;
+      align-items: flex-end;
+      margin-top: -20px;
+    }
+  
     /*HEBERGEMENTS*/
     #Host {
     flex-direction: column-reverse;
@@ -271,7 +279,7 @@
       flex-direction: column;
       align-content: flex-start;
       width: 100%;
-      padding: 0;
+      padding: 0 22px;
       background-color: inherit;
     }
     .Card-host {
@@ -298,6 +306,9 @@
     }
   
      /*ACTIVITES*/
+     #Activity {
+      padding: 0 22px;
+     }
      .Activity-title {
       display: block;
      }
@@ -337,5 +348,9 @@
       justify-content: center;
       flex-direction: column;
       padding: 0;
+    }
+    .footer-placement {
+      width: 30%;
+      margin: 0 16px;
     }
 }
