@@ -148,6 +148,9 @@
     main {
       width: 100%;
     }
+    main>div {
+      padding: 0 24px;
+    }
     main>div>h1 {
       width: 100%;
     }
@@ -180,7 +183,6 @@
       color: #0065fc;
     }
     header nav a {
-      padding: 24px 48px;
       border-top: 3px solid white;
       width: 100%;
       border-bottom: 3px solid #d9d9d9;
@@ -188,6 +190,10 @@
     }
 
     /*RECHERCHE*/
+    form {
+      width: 100%;
+      margin-left: 10px;
+  }
     .search-Style span{
       visibility: hidden;
     }
@@ -195,8 +201,9 @@
       width: 45px;
       position: relative;
       top: -75px;
-     right: -320px;
-     overflow-y: hidden;
+      right: -282px;
+      overflow-x: hidden;
+      border-radius: 10px;
     }
     .fa-magnifying-glass{
       visibility: visible;
@@ -206,7 +213,7 @@
       left: 11px;
     }
     .styleInput {
-        width: 277px;
+        width: 245px;
     }
     /*FILTRES*/
     .filters {
@@ -222,7 +229,7 @@
       margin-left: -5px;
       width: 100%;
       gap: 10px;
-      margin: 0 auto;
+      padding: 0 0 0 22px;
     }
     .filter-h2{
       margin: 0 0 32px 16px
@@ -230,10 +237,11 @@
     .info-flex {
       flex-wrap: nowrap;
       width: 90%;
+      margin: 16px 0;
     }
     i.fa-solid.fa-info.i {
       width: 32px;
-      margin-right: 12px;
+      margin-left: 6px;
   }
 
     /*POPULAIRES*/
@@ -249,7 +257,8 @@
     }
     .popular{ 
       width: 100%;
-      justify-content: center
+      justify-content: center;
+      border-radius: 0;
     }
   
     .star-popular-position-m3 {
@@ -268,7 +277,7 @@
       padding: 0px 0 0 25px;
       font-weight: bold;
       font-size: larger;
-      margin: 29px 0px 0px 6px;
+      margin: 29px 0px 0px -18px;
     }
     section.hebergement .Card-host>h3{
       padding: 0 0 0 16px;
