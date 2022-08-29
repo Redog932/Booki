@@ -238,7 +238,7 @@ section.hebergement .city-host>h3 {
 padding: 0px 0 0 25px;
 font-weight: bold;
 font-size: larger;
-margin: 44px 0px -9px 6px;
+margin:44px 0px 8px 6px;
 }
 
 .host-img{
@@ -398,7 +398,7 @@ gap: 32px;
 }
 
 section.hebergement>div.popular>h3 {
-margin: 26px 135px 11px -10px;
+margin: 26px 135px 28px -10px;
 }
 
 .card-popular .fa-star{
