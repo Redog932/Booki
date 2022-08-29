@@ -188,7 +188,8 @@
   header > nav ul li a {
     flex-basis: 100%;
     text-align: center;
-    padding: 20px 49px;
+    padding: 20px 53px;
+    overflow-x: hidden;
   }
 
   /*RECHERCHE*/
