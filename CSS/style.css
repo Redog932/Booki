@@ -225,11 +225,9 @@ span {
   gap: 32px;
 }
 
-section.hebergement .city-host > h3 {
-  padding: 0px 0 0 25px;
+section.hebergement .city-host > h2 {
+  margin: 44px 0px 0px 6px;
   font-weight: bold;
-  font-size: larger;
-  margin: 44px 0px 8px 6px;
 }
 
 .host-img {
@@ -388,8 +386,8 @@ div.card-popular:hover {
   gap: 32px;
 }
 
-section.hebergement > div.popular > h3 {
-  margin: 26px 135px 28px -10px;
+section.hebergement > div.popular > h2 {
+  margin: 26px 80px 21px -11px;
 }
 
 .card-popular .fa-star {
