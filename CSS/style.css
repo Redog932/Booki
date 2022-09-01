@@ -24,13 +24,11 @@ header {
 /*****HEADER*****/
 /*****NAV*****/
 header > nav > ul > li > a {
-  /* border: 1.5px solid blue; */
   text-decoration: none;
   color: inherit;
 }
 
 header nav {
-  /* border: 1px solid red; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -85,7 +83,6 @@ main > section > div > div > form > input {
 }
 
 main div div form input::placeholder {
-  /* border: 1px solid red; */
   color: black;
   font-weight: bold;
   font-size: 17px;
@@ -106,7 +103,6 @@ main div div form button {
 }
 
 .search-Style {
-  /* border: 1px solid purple; */
   align-content: center;
   display: flex;
   align-items: center;
@@ -114,7 +110,6 @@ main div div form button {
 }
 
 .i-locat {
-  /* border: 1px solid red; */
   padding: 12px 15px;
   margin-top: 15px;
   background-color: rgb(235, 229, 229);
@@ -130,7 +125,6 @@ main div div form button {
 }
 
 .styleButton {
-  /* border: 1px solid red; */
   height: 40px;
   position: relative;
   right: -241px;
@@ -362,7 +356,6 @@ div.card-popular:hover {
   box-shadow: 0 0 16px #0000002e;
 }
 .card-popular {
-  /* border: 2px solid red; */
   width: 350px;
   background-color: white;
   border-radius: 15px;
