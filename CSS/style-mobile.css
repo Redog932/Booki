@@ -6,6 +6,10 @@
   main {
     width: 100%;
   }
+  main > section > div > h1,
+  main > section > div > p {
+    margin-left: 45px;
+  }
 
   /*HEADER*/
   header {
@@ -25,12 +29,14 @@
     margin: auto;
   }
   a.host {
-    border-top-color: transparent;
-    border-bottom: 3px solid #0065fc;
-    color: #0065fc;
+    border-top: none;
   }
   header nav a {
-    border-top: 3px solid white;
+    border-bottom: 3px solid #d9d9d9;
+    border-top: none;
+  }
+  header nav a:hover {
+    border-bottom: 3px solid #0065fc;
   }
 
   /*RECHERCHE*/
@@ -64,6 +70,7 @@
   }
   form {
     width: 100%;
+    margin-left: 45px;
   }
   /*FILTRES*/
   .filtre-flex {
@@ -71,10 +78,15 @@
     justify-content: flex-start;
     width: 80%;
     gap: 10px;
+    margin-left: 85px;
+  }
+  .filter-h2 {
+    margin-left: 45px;
   }
   .info-flex {
     flex-wrap: nowrap;
     width: 90%;
+    margin-left: 45px;
   }
   /*HEBERGEMENTS*/
   #Host {
@@ -144,6 +156,12 @@
     padding: 0;
     width: 100%;
   }
+  .footer-position {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    margin-left: 200px;
+  }
 }
 
 /*MOBILE*/
@@ -157,7 +175,9 @@
   main > section > div {
     padding: 0 24px;
   }
-  main > section > div > h1 {
+  main > section > div > h1,
+  main > section > div > p {
+    margin-left: 0;
     width: 100%;
   }
 
@@ -181,12 +201,8 @@
   .sub-nav > a {
     padding: 0 10px;
   }
-  a.host {
-    border-bottom: 3px solid #0065fc;
-    color: #0065fc;
-  }
   header nav a {
-    border-top: 3px solid white;
+    border-top: none;
     flex-basis: 50%;
     border-bottom: 3px solid #d9d9d9;
   }
@@ -299,8 +315,7 @@
     background-color: inherit;
   }
   .Card-host {
-    margin: 0;
-    gap: 0;
+    width: 100%;
   }
   div.Card-host-position {
     width: 100%;
@@ -365,6 +380,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 0 16px;
+    margin: 0;
   }
   .footer-placement {
     width: 30%;
