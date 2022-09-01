@@ -47,35 +47,27 @@ header nav a:hover {
   color: #0065fc;
 }
 header nav ul {
-  /* border: 1px solid purple; */
   display: flex;
   list-style-type: none;
 }
 header > nav ul li a {
-  /* border: 1px solid black; */
   flex-basis: 50%;
   text-align: center;
 }
-.host {
-  border-top: 3px solid #0065fc;
-  color: #0065fc;
-}
+
 /*****NAV*****/
 /********titre*********/
 main {
-  /* border: 1px solid purple; */
   width: 1180px;
   margin: 0 auto;
 }
 /********titre*********/
 h1 {
-  /* border: 1px solid red; */
   margin-top: 40px;
   width: 500px;
   font-size: larger;
 }
 main > div > div > p {
-  /* border: 1px solid red; */
   position: absolute;
   bottom: 550px;
 }
@@ -83,7 +75,6 @@ main > div > div > p {
 /*****SEARCHSTYLE*****/
 
 main > section > div > div > form > input {
-  /* border: 1px solid blue; */
   display: flex;
   width: 200px;
   height: 40px;
@@ -145,6 +136,7 @@ main div div form button {
   right: -241px;
   top: -75px;
   background-color: #0065fc;
+  cursor: pointer;
 }
 .fa-magnifying-glass {
   visibility: hidden;
@@ -222,7 +214,6 @@ i.fa-solid.fa-info.i {
 span {
   width: max-content;
   font-size: large;
-  cursor: pointer;
   padding-left: 16px;
 }
 /*--------------SEARCH FILTER--------------*/
@@ -452,16 +443,6 @@ section.hebergement > div.popular > h3 {
   border-radius: 16px 16px 0 0;
   object-fit: cover;
 }
-/* div.little-card-activity:hover {
-box-shadow: 0 0 16px #0000002e;
-border-radius: 16px;
-height: fit-content;
-}
-div.big-card-activity:hover {
-box-shadow: 0 0 16px #0000002e;
-border-radius: 16px;
-height: fit-content;
-} */
 
 /*FOOTER*/
 footer {
