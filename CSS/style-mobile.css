@@ -210,7 +210,7 @@
   header > nav ul li a {
     flex-basis: 100%;
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 60px;
     overflow-x: hidden;
   }
 
@@ -385,7 +385,7 @@
     margin: 0;
   }
   .footer-placement {
-    width: 30%;
+    width: 100%;
     margin: 0 16px;
   }
 }
