@@ -169,6 +169,15 @@ i.fa-solid.fa-info.i {
   padding-right: 16px;
   margin-left: 48px;
   margin-right: -24px;
+  text-decoration: none;
+  color: inherit;
+}
+.fa-solid.fa-heart,
+.fa-solid.fa-dog,
+.fa-solid.fa-child-reaching,
+.fa-solid.fa-money-bill-wave
+ {
+  color: #0065fc;
 }
 .icon-style {
   background-color: #deebff;
@@ -245,6 +254,10 @@ section.hebergement .city-host > h2 {
   display: flex;
   flex-wrap: wrap;
 }
+.Card-host>a {
+  text-decoration: none;
+  color: inherit;
+}
 
 .Card-host-position {
   width: 235px;
@@ -294,11 +307,6 @@ section.hebergement .city-host > h2 {
   text-decoration: none;
   color: inherit;
 }
-
-a.card-more:hover {
-  box-shadow: 0 0 16px #0000002e;
-}
-
 .rating-style {
   color: #0065fc;
   margin: 4px 0;
@@ -372,6 +380,10 @@ div.card-popular:hover {
 
 .card-popular i {
   margin-top: 15px;
+}
+.popular-disposition a {
+text-decoration: none;
+color: inherit;
 }
 .popular-disposition {
   display: flex;

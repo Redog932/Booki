@@ -42,6 +42,7 @@
   /*RECHERCHE*/
   .search-Style span {
     visibility: hidden;
+    font-size: inherit;
   }
   main > section > div > form > input {
     display: flex;
@@ -68,6 +69,7 @@
     bottom: 8px;
     left: 11px;
   }
+  
   form {
     width: 100%;
     margin-left: 45px;
@@ -165,7 +167,7 @@
 }
 
 /*MOBILE*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   html {
     width: 100%;
   }
@@ -220,6 +222,7 @@
   }
   .search-Style span {
     visibility: hidden;
+    font-size: inherit;
   }
   .styleButton {
     width: 45px;
