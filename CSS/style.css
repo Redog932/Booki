@@ -175,8 +175,7 @@ i.fa-solid.fa-info.i {
 .fa-solid.fa-heart,
 .fa-solid.fa-dog,
 .fa-solid.fa-child-reaching,
-.fa-solid.fa-money-bill-wave
- {
+.fa-solid.fa-money-bill-wave {
   color: #0065fc;
 }
 .icon-style {
@@ -254,7 +253,7 @@ section.hebergement .city-host > h2 {
   display: flex;
   flex-wrap: wrap;
 }
-.Card-host>a {
+.Card-host > a {
   text-decoration: none;
   color: inherit;
 }
@@ -276,6 +275,7 @@ section.hebergement .city-host > h2 {
 
 .Card-host-position:hover {
   box-shadow: 0 0 16px #0000002e;
+  cursor: pointer;
 }
 
 .font-card {
@@ -382,8 +382,8 @@ div.card-popular:hover {
   margin-top: 15px;
 }
 .popular-disposition a {
-text-decoration: none;
-color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 .popular-disposition {
   display: flex;
@@ -439,12 +439,17 @@ section.hebergement > div.popular > h2 {
   box-shadow: 0 0 16px #0000002e;
   border-radius: 16px;
   margin-bottom: 16px;
+  cursor: pointer;
 }
 .little-card-activity img {
   width: 260px;
   height: 160px;
   border-radius: 16px 16px 0 0;
   object-fit: cover;
+}
+.card-activity-placement > a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /*FOOTER*/
@@ -460,6 +465,13 @@ footer section {
   width: 100%;
 }
 
+.footer-placement > a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
 .footer-placement {
   width: 30%;
 }

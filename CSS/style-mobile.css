@@ -107,7 +107,6 @@
   }
   .Card-host {
     margin: auto;
-    gap: 48px;
     justify-content: center;
     width: 85%;
   }
@@ -162,7 +161,7 @@
     width: 100%;
     max-width: 1180px;
     display: flex;
-    margin-left: 200px;
+    margin-left: 100px;
   }
 }
 
@@ -211,7 +210,7 @@
   header > nav ul li a {
     flex-basis: 100%;
     text-align: center;
-    padding: 20px 60px;
+    padding: 20px 50px;
     overflow-x: hidden;
   }
 
@@ -317,7 +316,7 @@
     padding: 0 22px;
     background-color: inherit;
   }
-  .Card-host {
+  .Card-host{
     width: 100%;
   }
   div.Card-host-position {
