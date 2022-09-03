@@ -54,13 +54,13 @@
     margin-left: 45px;
   }
   .styleInput {
-    width: 400px;
+    width: 250px;
   }
   .styleButton {
     width: 45px;
     position: relative;
-    right: -443px;
-    top: -75px;
+    right: -38px;
+    top: 14px;
   }
   .fa-magnifying-glass {
     visibility: visible;
@@ -69,7 +69,7 @@
     bottom: 8px;
     left: 11px;
   }
-  
+
   form {
     width: 100%;
     margin-left: 45px;
@@ -96,7 +96,7 @@
     justify-content: center;
   }
   section.hebergement .Card-host > h3 {
-    padding: 0px 0 32px 25px;
+    padding: 0 0 32px 25px;
   }
   div.city-host {
     /* flex-direction: column; */
@@ -210,7 +210,7 @@
   header > nav ul li a {
     flex-basis: 100%;
     text-align: center;
-    padding: 20px 60px;
+    padding: 20px 50px;
     overflow-x: hidden;
   }
 
@@ -226,8 +226,8 @@
   .styleButton {
     width: 45px;
     position: relative;
-    top: -75px;
-    right: -282px;
+    top: 13px;
+    right: 0;
     overflow-x: hidden;
     border-radius: 10px;
   }
@@ -240,6 +240,7 @@
   }
   .styleInput {
     width: 245px;
+    height: 38px;
   }
   /*FILTRES*/
   .filters {
@@ -253,12 +254,12 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     margin-left: -5px;
-    width: 100%;
+    width: 90%;
     gap: 10px;
     padding: 0 0 0 22px;
   }
   .filter-h2 {
-    margin: 0 0 32px 16px;
+    margin: 60px 0 32px 16px;
   }
   .info-flex {
     flex-wrap: nowrap;
@@ -300,10 +301,10 @@
     width: 100%;
   }
   section.hebergement .city-host > h3 {
-    padding: 0px 0 0 25px;
+    padding: 0 0 0 25px;
     font-weight: bold;
     font-size: larger;
-    margin: 29px 0px 0px -18px;
+    margin: 29px 0 0 -18px;
   }
   section.hebergement .Card-host > h3 {
     padding: 0 0 0 16px;
@@ -316,7 +317,7 @@
     padding: 0 22px;
     background-color: inherit;
   }
-  .Card-host{
+  .Card-host {
     width: 100%;
   }
   div.Card-host-position {
@@ -324,7 +325,7 @@
     height: 230px;
     border-radius: 16px;
     box-shadow: 0 0 16px #0000002e;
-    margin: 16px 0px 30px 0;
+    margin: 16px 0 30px 0;
   }
   .host-img {
     width: 100%;

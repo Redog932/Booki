@@ -119,16 +119,17 @@ main div div form button {
 
 .styleInput {
   position: relative;
-  bottom: 35px;
-  right: 2.5px;
+  bottom: -14px;
+  right: -42px;
   border: 1px solid #d9d9d9;
+  height: 40px;
 }
 
 .styleButton {
   height: 40px;
   position: relative;
-  right: -241px;
-  top: -75px;
+  right: -38px;
+  top: 15px;
   background-color: #0065fc;
   cursor: pointer;
 }
@@ -138,7 +139,7 @@ main div div form button {
 
 /*--------------SEARCH FILTER--------------*/
 .filter-h2 {
-  margin: 0 0 -40px 16px;
+  margin: 74px 0 -40px 16px;
 }
 main > section > div > div > div > i {
   border-radius: 16px 16px 16px 16px;
@@ -228,7 +229,7 @@ span {
 }
 
 section.hebergement .city-host > h2 {
-  margin: 44px 0px 0px 6px;
+  margin: 44px 0 0 6px;
   font-weight: bold;
 }
 
@@ -247,7 +248,7 @@ section.hebergement .city-host > h2 {
   display: flex;
   align-content: space-around;
   flex-wrap: wrap;
-  margin-right: 0px;
+  margin-right: 0;
 }
 .Card-host {
   display: flex;
@@ -264,6 +265,10 @@ section.hebergement .city-host > h2 {
   margin: 16px 6px;
   background-color: white;
   border-radius: 15px;
+}
+.Card-host-position a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .host-star {
@@ -354,7 +359,7 @@ section.hebergement .city-host > h2 {
 .img-popular {
   width: 132px;
   height: 139px;
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 15px 0 0 15px;
   padding: 5px;
   float: left;
   object-fit: cover;
@@ -400,11 +405,15 @@ section.hebergement > div.popular > h2 {
 }
 
 /*ACTIVITY*/
-
+.big-card-activity a,
+.little-card-activity a {
+  text-decoration: none;
+  color: inherit;
+}
 .Activity-title {
   margin-top: 70px;
   margin-bottom: -30px;
-  padding-left: 24px;
+  padding-left: 12px;
 }
 .activity-h3 {
   padding-left: 16px;
@@ -423,6 +432,7 @@ section.hebergement > div.popular > h2 {
 .big-card-activity {
   width: 260px;
   height: 445px;
+  cursor: pointer;
 }
 .big-card-activity img {
   width: 260px;
@@ -435,7 +445,7 @@ section.hebergement > div.popular > h2 {
 .little-card-activity {
   width: 260px;
   height: 216px;
-  margin: 0px 36px;
+  margin: 0 36px;
   box-shadow: 0 0 16px #0000002e;
   border-radius: 16px;
   margin-bottom: 16px;
