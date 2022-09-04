@@ -3,6 +3,9 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
+body {
+  margin: 0 16px;
+}
 /*****FONTS*****/
 /*****HEADER*****/
 
@@ -11,7 +14,7 @@ header > nav > div > ul {
 }
 
 header {
-  width: 1180px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   align-items: baseline;
@@ -33,11 +36,10 @@ header nav {
   align-items: center;
   justify-content: flex-end;
   flex-wrap: wrap;
-  margin-top: 32px;
 }
 
 header nav a {
-  padding: 24px;
+  padding: 30px;
   border: 3px solid transparent;
 }
 header nav a:hover {
@@ -56,7 +58,7 @@ header > nav ul li a {
 /*****NAV*****/
 /********titre*********/
 main {
-  width: 1180px;
+  width: 100%;
   margin: 0 auto;
 }
 /********titre*********/
@@ -86,7 +88,7 @@ main div div form input::placeholder {
   color: black;
   font-weight: bold;
   font-size: 17px;
-  padding: 19.2px;
+  padding: 19px;
   text-align: left;
 }
 
@@ -96,7 +98,7 @@ main div div form button {
   font-size: 16px;
   font-weight: bold;
   color: white;
-  padding: 8.5px;
+  padding: 9px;
   border-color: transparent;
   position: absolute;
   right: 800px;
@@ -205,9 +207,9 @@ i.fa-solid.fa-info.i {
   display: flex;
   color: rgb(10, 90, 240);
   justify-content: center;
-  width: 21.8px;
-  height: 21.8px;
-  padding-top: 1.5px;
+  width: 22px;
+  height: 22px;
+  padding-top: 2px;
 }
 
 .fa-solid.fa-info {
@@ -234,10 +236,11 @@ section.hebergement .city-host > h2 {
 }
 
 .host-img {
-  width: 229px;
+  width: 98%;
   height: 119px;
   border-radius: 15px 15px 0 0;
   padding: 6px 0 0 6px;
+  object-fit: cover;
 }
 
 .city-host {
@@ -253,6 +256,8 @@ section.hebergement .city-host > h2 {
 .Card-host {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 .Card-host > a {
   text-decoration: none;
@@ -260,11 +265,11 @@ section.hebergement .city-host > h2 {
 }
 
 .Card-host-position {
-  width: 235px;
-  height: 199px;
+  width: 30%;
+  height: 42%;
   margin: 16px 6px;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 16px;
 }
 .Card-host-position a {
   text-decoration: none;
@@ -324,6 +329,7 @@ section.hebergement .city-host > h2 {
 
 /*--------------POPULAR--------------*/
 .popular {
+  width: 100%;
   flex-basis: 33%;
   padding: 20px;
   display: flex;
@@ -369,7 +375,7 @@ div.card-popular:hover {
   box-shadow: 0 0 16px #0000002e;
 }
 .card-popular {
-  width: 350px;
+  width: 100%;
   background-color: white;
   border-radius: 15px;
 }
@@ -394,6 +400,7 @@ div.card-popular:hover {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  width: 100%;
 }
 
 section.hebergement > div.popular > h2 {
@@ -406,7 +413,8 @@ section.hebergement > div.popular > h2 {
 
 /*ACTIVITY*/
 .big-card-activity a,
-.little-card-activity a {
+.little-card-activity a,
+.little-card-activity-2 a{
   text-decoration: none;
   color: inherit;
 }
@@ -422,40 +430,50 @@ section.hebergement > div.popular > h2 {
 .card-activity-placement {
   margin-top: 48px;
   display: flex;
-  gap: 0.8%;
+}
+div.card-activity-placement > div {
+  width: 100%;
 }
 .big-card {
+  width: 25%;
   box-shadow: 0 0 16px #0000002e;
   margin-bottom: 16px;
   border-radius: 16px;
 }
 .big-card-activity {
-  width: 260px;
+  width: 100%;
   height: 445px;
   cursor: pointer;
 }
 .big-card-activity img {
-  width: 260px;
-  height: 392px;
+  width: 100%;
+  height: 90%;
   border-radius: 16px 16px 0 0;
   object-fit: cover;
   box-shadow: 0 0 16px #0000002e;
 }
 
 .little-card-activity {
-  width: 260px;
   height: 216px;
-  margin: 0 36px;
   box-shadow: 0 0 16px #0000002e;
   border-radius: 16px;
-  margin-bottom: 16px;
+  margin: 0 36px 16px;
   cursor: pointer;
 }
-.little-card-activity img {
-  width: 260px;
+.little-card-activity-2 {
+  height: 216px;
+  box-shadow: 0 0 16px #0000002e;
+  border-radius: 16px;
+  margin: 0 36px 16px;
+  cursor: pointer;
+}
+.little-card-activity img,
+.little-card-activity-2 img {
+  width: 100%;
   height: 160px;
   border-radius: 16px 16px 0 0;
   object-fit: cover;
+  box-shadow: 0 0 16px #0000002e;
 }
 .card-activity-placement > a {
   text-decoration: none;
@@ -491,7 +509,6 @@ footer h3 {
 }
 .footer-position {
   width: 100%;
-  max-width: 1180px;
   display: flex;
   gap: 15%;
 }
