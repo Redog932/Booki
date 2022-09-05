@@ -54,7 +54,7 @@
     margin-left: 45px;
   }
   .styleInput {
-    width: 250px;
+    width: 50%;
   }
   .styleButton {
     width: 45px;
@@ -108,7 +108,6 @@
   .Card-host {
     margin: auto;
     justify-content: center;
-    width: 85%;
   }
   div.Card-host-position {
     margin: 16px 30px 30px 0;
@@ -126,11 +125,28 @@
     flex-wrap: nowrap;
   }
   .card-activity-placement {
-    margin: 70px 96px;
     display: flex;
     flex-wrap: wrap;
-    width: 85%;
+    width: 100%;
     justify-content: center;
+  }
+  .big-card,
+  .little-card-activity-2,
+  .little-card-activity {
+    width: 100%;
+    margin: 16px 0;
+  }
+  .big-card-activity {
+    width: 100%;
+    height: 216px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  .big-card-activity img {
+    width: 100%;
+    height: 75%;
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
   }
   /*POPULAR*/
   section.hebergement > div.popular > h3 {
@@ -159,9 +175,7 @@
   }
   .footer-position {
     width: 100%;
-    max-width: 1180px;
     display: flex;
-    margin-left: 100px;
   }
 }
 
@@ -172,9 +186,6 @@
   }
   main {
     width: 100%;
-  }
-  main > section > div {
-    padding: 0 24px;
   }
   main > section > div > h1,
   main > section > div > p {
@@ -194,23 +205,23 @@
     flex-wrap: wrap;
   }
   .sub-nav {
-    width: 100%;
+    flex-basis: 100%;
     justify-content: center;
     padding: 0;
     display: flex;
   }
-  .sub-nav > a {
-    padding: 0 10px;
+  .sub-nav a {
+    flex-basis: 50%;
+
   }
   header nav a {
     border-top: none;
-    flex-basis: 50%;
     border-bottom: 3px solid #d9d9d9;
   }
   header > nav ul li a {
     flex-basis: 100%;
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 40px;
     overflow-x: hidden;
   }
 
@@ -239,8 +250,8 @@
     left: 11px;
   }
   .styleInput {
-    width: 245px;
-    height: 38px;
+    width: 50%;
+    height: 40px;
   }
   /*FILTRES*/
   .filters {
@@ -267,7 +278,6 @@
     margin: 16px 0;
   }
   i.fa-solid.fa-info.i {
-    width: 32px;
     margin-left: 6px;
   }
 
@@ -341,10 +351,10 @@
 
   /*ACTIVITES*/
   #Activity {
-    padding: 0 22px;
-  }
+display: flex  }
   .Activity-title {
     display: block;
+    justify-content: center;
   }
   .activity {
     width: 100%;
