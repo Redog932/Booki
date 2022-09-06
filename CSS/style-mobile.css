@@ -10,57 +10,53 @@
   main > section > div > p {
     margin-left: 45px;
   }
-
-  /*HEADER*/
-  header {
-    width: 10%;
-    flex-wrap: wrap;
-    justify-content: center;
+  body {
+    margin: 0;
   }
-  #logo {
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 50%;
-    flex-wrap: wrap;
+  /* HEADER */
+  header > a {
+    margin: 0 auto;
   }
   .sub-nav {
-    width: 100%;
-    justify-content: center;
-    margin: auto;
-  }
-  a.host {
-    border-top: none;
-  }
-  header nav a {
-    border-bottom: 3px solid #d9d9d9;
-    border-top: none;
-  }
-  header nav a:hover {
-    border-bottom: 3px solid #0065fc;
+    display: flex;
+    margin: 16px auto;
   }
 
-  /*RECHERCHE*/
-  .search-Style span {
-    visibility: hidden;
-    font-size: inherit;
+  /* FILTRES */
+  .filtre-flex {
+    flex-wrap: wrap;
   }
-  main > section > div > form > input {
-    display: flex;
-    width: 400px;
+  /* RECHERCHE */
+  form {
+    margin-left: 16px;
+  }
+  .i-locat {
+    padding: 12px 15px;
+    margin-top: 15px;
+    background-color: rgb(235, 229, 229);
+    border-radius: 16px 0 0 16px;
+    position: absolute;
+    left: 60px;
     height: 40px;
-    justify-content: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 45px;
   }
   .styleInput {
     width: 50%;
+    height: 40px;
+    max-width: none;
+    right: -85px;
+    top: 15px;
   }
   .styleButton {
     width: 45px;
     position: relative;
-    right: -38px;
     top: 14px;
+    right: -74px;
+    overflow-x: hidden;
+    border-radius: 10px;
+  }
+  .search-Style span {
+    visibility: hidden;
+    font-size: inherit;
   }
   .fa-magnifying-glass {
     visibility: visible;
@@ -69,114 +65,18 @@
     bottom: 8px;
     left: 11px;
   }
-
-  form {
-    width: 100%;
-    margin-left: 45px;
-  }
-  /*FILTRES*/
-  .filtre-flex {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 80%;
-    gap: 10px;
-    margin-left: 85px;
-  }
-  .filter-h2 {
-    margin-left: 45px;
-  }
-  .info-flex {
-    flex-wrap: nowrap;
-    width: 90%;
-    margin-left: 45px;
-  }
-  /*HEBERGEMENTS*/
-  #Host {
+  /* HEBERGEMENTS */
+  .hebergement {
+    display: flex;
     flex-direction: column-reverse;
-    justify-content: center;
   }
-  section.hebergement .Card-host > h3 {
-    padding: 0 0 32px 25px;
+  /* POPULAR */
+  .img-popular {
+    width: 30%;
   }
-  div.city-host {
-    /* flex-direction: column; */
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 10%;
-  }
-  .Card-host {
-    margin: auto;
-    justify-content: center;
-  }
-  div.Card-host-position {
-    margin: 16px 30px 30px 0;
-  }
-  a.card-more {
-    justify-content: center;
-    margin: 0 0 30px -20px;
-  }
-  /*ACTIVITES*/
-  .Activity-title {
-    display: flex;
-    justify-content: center;
-  }
-  .card-activity-placement div {
-    flex-wrap: nowrap;
-  }
-  .card-activity-placement {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-  }
-  .big-card,
-  .little-card-activity-2,
-  .little-card-activity {
-    width: 100%;
-    margin: 16px 0;
-  }
-  .big-card-activity {
-    width: 100%;
-    height: 216px;
-    cursor: pointer;
-    border-radius: 16px;
-  }
-  .big-card-activity img {
-    width: 100%;
-    height: 75%;
-    border-radius: 16px 16px 0 0;
-    object-fit: cover;
-  }
-  /*POPULAR*/
-  section.hebergement > div.popular > h3 {
-    margin: 27px 62px 12px -27px;
-  }
-  .popular-disposition {
-    width: 80%;
-    justify-content: center;
-  }
-  .card-popular {
-    width: 80%;
-    margin-left: 70px;
-  }
-  .popular {
-    width: 100%;
-    justify-content: center;
-  }
-  .star-popular-position-2 {
-    height: 67px;
-  }
-  /*FOOTER*/
-  footer > section {
-    justify-content: space-evenly;
-    padding: 0;
-    width: 100%;
-  }
-  .footer-position {
-    width: 100%;
-    display: flex;
-  }
+  .star-popular-position-2{
+    margin-top: 30px;
+  }    
 }
 
 /*MOBILE*/
@@ -195,8 +95,10 @@
 
   /*HEADER*/
   header {
-    width: 10%;
     flex-wrap: wrap;
+  }
+  header nav {
+    width: 100%;
   }
   #logo {
     justify-content: center;
@@ -204,15 +106,8 @@
     margin: 0 15% 0 30%;
     flex-wrap: wrap;
   }
-  .sub-nav {
-    flex-basis: 100%;
-    justify-content: center;
-    padding: 0;
-    display: flex;
-  }
   .sub-nav a {
     flex-basis: 50%;
-
   }
   header nav a {
     border-top: none;
@@ -224,34 +119,23 @@
     padding: 20px 40px;
     overflow-x: hidden;
   }
+  main > section > div >h3 > p {
+    margin: 0 10%;
+  }
 
   /*RECHERCHE*/
   form {
     width: 100%;
     margin-left: 10px;
   }
-  .search-Style span {
-    visibility: hidden;
-    font-size: inherit;
-  }
-  .styleButton {
-    width: 45px;
-    position: relative;
-    top: 13px;
-    right: 0;
-    overflow-x: hidden;
-    border-radius: 10px;
-  }
-  .fa-magnifying-glass {
-    visibility: visible;
-    display: flex;
-    position: absolute;
-    bottom: 8px;
-    left: 11px;
+  .i-locat {
+    left: 60px;
   }
   .styleInput {
     width: 50%;
     height: 40px;
+    left: 92px;
+    top: 15px;
   }
   /*FILTRES*/
   .filters {
@@ -296,7 +180,7 @@
     width: 100%;
     justify-content: center;
     border-radius: 0;
-  }
+  }  
 
   .star-popular-position-m3 {
     height: 64px;
@@ -351,7 +235,9 @@
 
   /*ACTIVITES*/
   #Activity {
-display: flex  }
+    display: flex;
+    margin: 0 16px;
+  }
   .Activity-title {
     display: block;
     justify-content: center;
@@ -359,10 +245,16 @@ display: flex  }
   .activity {
     width: 100%;
   }
+  .little-card-activity h3,
+  .little-card-activity-1 h3,
+  .little-card-activity-2 h3 {
+    padding: 16px;
+  }
   .card-activity-placement div {
     flex-wrap: nowrap;
     margin-left: 0;
     width: 100%;
+    height: inherit;
   }
   .card-activity-placement {
     display: flex;
@@ -370,19 +262,29 @@ display: flex  }
     width: 100%;
     margin: 50px 0;
     padding: 0;
+    height: inherit;
   }
   .big-card-activity {
     width: 302px;
-    height: 236px;
+    height: 240px;
   }
   .big-card-activity img {
     width: 100%;
     height: 181px;
     border-radius: 16px 16px 0 0;
     object-fit: cover;
+    height: 183px;
   }
   .little-card-activity img {
     width: 100%;
+    height: 183px;
+  }
+  .little-card-activity-1 img {
+    width: 100%;
+    height: 183px;
+  }
+  .little-card-activity-2 img {
+    height: 183px;
   }
 
   /*FOOTER*/
