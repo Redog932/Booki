@@ -8,14 +8,18 @@
   }
   main > section > div > h1,
   main > section > div > p {
-    margin-left: 45px;
+    margin-left: 5px;
   }
   body {
     margin: 0;
   }
+  header,
+  section {
+    margin: 0;
+  }
   /* HEADER */
-  header > a {
-    margin: 0 auto;
+  header {
+    flex-wrap: wrap;
   }
   .sub-nav {
     display: flex;
@@ -23,6 +27,9 @@
   }
 
   /* FILTRES */
+  .filters {
+    margin: 0 -24px 10px 48px;
+  }
   .filtre-flex {
     flex-wrap: wrap;
   }
@@ -36,21 +43,20 @@
     background-color: rgb(235, 229, 229);
     border-radius: 16px 0 0 16px;
     position: absolute;
-    left: 60px;
+    left: 16px;
     height: 40px;
   }
   .styleInput {
-    width: 50%;
     height: 40px;
     max-width: none;
-    right: -85px;
+    right: -42px;
     top: 15px;
   }
   .styleButton {
     width: 45px;
     position: relative;
     top: 14px;
-    right: -74px;
+    right: -35px;
     overflow-x: hidden;
     border-radius: 10px;
   }
@@ -74,9 +80,12 @@
   .img-popular {
     width: 30%;
   }
-  .star-popular-position-2{
+  section.hebergement > div.popular > h2 {
+    margin: 26px 185px 22px -17px;
+  }
+  .star-popular-position-2 {
     margin-top: 30px;
-  }    
+  }
 }
 
 /*MOBILE*/
@@ -89,13 +98,19 @@
   }
   main > section > div > h1,
   main > section > div > p {
-    margin-left: 0;
     width: 100%;
+  }
+  header,
+  section {
+    margin: 0;
   }
 
   /*HEADER*/
   header {
     flex-wrap: wrap;
+  }
+  header > a {
+    margin: 0 auto;
   }
   header nav {
     width: 100%;
@@ -106,20 +121,17 @@
     margin: 0 15% 0 30%;
     flex-wrap: wrap;
   }
-  .sub-nav a {
-    flex-basis: 50%;
-  }
   header nav a {
+    width: 100%;
     border-top: none;
     border-bottom: 3px solid #d9d9d9;
   }
   header > nav ul li a {
-    flex-basis: 100%;
     text-align: center;
-    padding: 20px 40px;
+    padding: 20px 30px;
     overflow-x: hidden;
   }
-  main > section > div >h3 > p {
+  main > section > div > h3 > p {
     margin: 0 10%;
   }
 
@@ -129,12 +141,11 @@
     margin-left: 10px;
   }
   .i-locat {
-    left: 60px;
+    left: 40px;
   }
   .styleInput {
-    width: 50%;
     height: 40px;
-    left: 92px;
+    left: 72px;
     top: 15px;
   }
   /*FILTRES*/
@@ -166,6 +177,9 @@
   }
 
   /*POPULAIRES*/
+  section.hebergement > div.popular > h2 {
+    margin: 26px 185px 22px -17px;
+  }
   section.hebergement > div.popular > h3 {
     margin: 9px 135px 10px -10px;
   }
@@ -180,7 +194,7 @@
     width: 100%;
     justify-content: center;
     border-radius: 0;
-  }  
+  }
 
   .star-popular-position-m3 {
     height: 64px;

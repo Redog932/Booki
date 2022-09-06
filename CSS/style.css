@@ -3,8 +3,12 @@
   box-sizing: border-box;
   font-family: "Raleway", sans-serif;
 }
-body {
-  margin: 0 16px;
+header,
+section {
+  margin: 0 32px;
+}
+main {
+  overflow-x: hidden;
 }
 /*****FONTS*****/
 /*****HEADER*****/
@@ -23,6 +27,7 @@ header {
 
 #logo {
   block-size: 48px;
+  margin-left: 32px;
 }
 /*****HEADER*****/
 /*****NAV*****/
@@ -51,7 +56,6 @@ header nav ul {
   list-style-type: none;
 }
 header > nav ul li a {
-  flex-basis: 50%;
   text-align: center;
 }
 .sub-nav {
@@ -130,7 +134,7 @@ form {
   right: -42px;
   border: 1px solid #d9d9d9;
   height: 40px;
-  width: 25%;
+  width: 45%;
   max-width: 245px;
 }
 
@@ -208,7 +212,7 @@ i.fa-solid.fa-info.i {
   display: flex;
   align-items: baseline;
   width: 38%;
-  margin: 16px 10px;
+  margin: 16px 32px;
 }
 
 .i {
@@ -241,7 +245,7 @@ span {
 }
 
 section.hebergement .city-host > h2 {
-  margin: 44px 0 0 6px;
+  margin: 44px 0 10px 37px;
   font-weight: bold;
 }
 
@@ -322,7 +326,7 @@ section.hebergement .city-host > h2 {
   font-size: 14px;
 }
 .card-more {
-  margin: 0 0 30px 30px;
+  margin: 0 0 30px 33px;
   font-weight: bold;
   text-decoration: none;
   color: inherit;
@@ -416,7 +420,7 @@ div.card-popular:hover {
 }
 
 section.hebergement > div.popular > h2 {
-  margin: 26px 80px 21px -11px;
+  margin: 26px 185px 0 -17px;
 }
 
 .card-popular .fa-star {
@@ -438,8 +442,7 @@ section.hebergement > div.popular > h2 {
   box-shadow: 0 0 16px #0065fc;
 }
 .Activity-title {
-  margin-top: 70px;
-  margin-bottom: -30px;
+  margin: 70px 0 -30px 23px;
   padding-left: 12px;
 }
 .activity-h3 {
@@ -531,6 +534,7 @@ footer section {
   justify-content: space-around;
   background-color: #f2f2f2;
   width: 100%;
+  margin: 0;
 }
 
 .footer-placement > a {
@@ -542,6 +546,7 @@ footer section {
 }
 .footer-placement {
   width: 30%;
+  margin: 0 26px;
 }
 
 footer h3 {
@@ -550,5 +555,4 @@ footer h3 {
 .footer-position {
   width: 100%;
   display: flex;
-  gap: 15%;
 }
