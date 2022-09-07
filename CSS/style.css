@@ -34,6 +34,7 @@ header {
 header > nav > ul > li > a {
   text-decoration: none;
   color: inherit;
+  text-align: center;
 }
 
 header nav {
@@ -54,12 +55,6 @@ header nav a:hover {
 header nav ul {
   display: flex;
   list-style-type: none;
-}
-header > nav ul li a {
-  text-align: center;
-}
-.sub-nav {
-  display: flex;
 }
 
 /*****NAV*****/
@@ -101,8 +96,7 @@ main div div form input::placeholder {
 
 main div div form button {
   border-radius: 0 16px 16px 0;
-  background-color: rgb(10, 90, 240);
-  font-size: 16px;
+  background-color: #0065fc;
   font-weight: bold;
   color: white;
   padding: 9px;
@@ -226,10 +220,6 @@ i.fa-solid.fa-info.i {
   padding-top: 2px;
 }
 
-.fa-solid.fa-info {
-  display: flex;
-}
-
 span {
   width: max-content;
   font-size: large;
@@ -342,6 +332,13 @@ section.hebergement .city-host > h2 {
 }
 
 /*--------------POPULAR--------------*/
+.title-popular {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .popular {
   width: 100%;
   flex-basis: 33%;
@@ -373,7 +370,7 @@ section.hebergement .city-host > h2 {
 
 .star-popular {
   width: 10px;
-  display: flex;
+  margin-right: 10px;
 }
 
 .img-popular {
@@ -453,12 +450,9 @@ section.hebergement > div.popular > h2 {
   overflow: hidden;
 }
 .card-activity-placement {
-  margin-top: 48px;
+  margin: 48px 16px 0 16px;
   display: flex;
   gap: 24px;
-}
-div.card-activity-placement > div {
-  width: 100%;
 }
 .big-card {
   width: 25%;
